@@ -12,9 +12,8 @@ def nextPalindrome(n):
 n=input()
 a=[]
 while n:
-    a.append(input())
+    print nextPalindrome(input())
     n=n-1
-for n in a:
-    print nextPalindrome(n)
+
 
 
