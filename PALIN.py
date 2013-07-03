@@ -10,7 +10,6 @@ def nextPalindrome(n):
 
 
 n=input()
-a=[]
 while n:
     print nextPalindrome(input())
     n=n-1
