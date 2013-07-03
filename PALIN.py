@@ -13,8 +13,8 @@ def main(n):
             if center<9:
                 return left+(str(int(center)+1))+left[::-1]
             else:
-                leftnew=str(int(left+1))
-                return leftnew+str(0)+str(int())+leftnew[::-1]
+                leftnew=str(int(left)+1)
+                return leftnew+leftnew[::-1]
     else:
         left=n[:c]
         right=n[c:]
